@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: sans-serif;
+}
+
+header{
+	height: 50px;
+	background-color: blue;
+	color: #fff;
+	position: relative;
+}
+.menu ul{
+	background-color:#CE852A;
+	list-style: none;
+}
+.menu li{
+	border:30px;
+	padding: 15px 10px;
+	display: inline-block;
+}
+.menu ul ul{
+	position: absolute;
+	top:50px;
+}
+.menu .itemList li{
+	display: block;
+}
+.menu li:hover{
+	background-color:rgba(0,0,0,3);
+	cursor: pointer;
+}
+.hide{
+	display: none;
+
+
+}
+.show{
+	display: block;
+}
